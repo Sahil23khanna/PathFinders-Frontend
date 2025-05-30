@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL="https://path-finders-backend-bice.vercel.app/"
+const BASE_URL="https://path-finders-backend-bice.vercel.app"
 class ApiServices{
 
     getToken(){
