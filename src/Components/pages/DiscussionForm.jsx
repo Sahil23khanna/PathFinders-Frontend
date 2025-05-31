@@ -72,7 +72,7 @@ export default function DiscussionForm() {
     return (
         <div>
             <PageTitle>Discussions</PageTitle>
-            {load ? <FadeLoader color="#f98603" /> : (
+            {load ? <FadeLoader color="#f98603" cssOverride={{ display: "block", margin: "0 auto" }}/> : (
                 <div className="container my-5">
                     <Accordion activeKey={activeAccordion}>
                         {discussionQuestion.map((question) => (
