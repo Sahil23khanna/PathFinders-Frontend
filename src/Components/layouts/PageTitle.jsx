@@ -5,7 +5,7 @@ export default function PageTitle({children}){
         <>
          {/* breadcrumb start*/}
 
-  <section className="breadcrumb breadcrumb_bg">
+  <section className="breadcrumb breadcrumb_bg ">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
@@ -13,7 +13,7 @@ export default function PageTitle({children}){
             <div className="breadcrumb_iner_item">
               <h2>{children}</h2>
               <p>
-               <Link to={"/"}>Home</Link><span>/</span>{children}
+               <Link to={"/"} style={{color:"white"}}>Home</Link><span>/</span>{children}
               </p>
             </div>
           </div>

@@ -51,7 +51,8 @@ const isLogin = sessionStorage.getItem("isLogin")
              {/*  <img src="/assets/img/logo.png" alt="logo" />{" "} */}
                 <span
   style={{
-    background: "linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%)",
+  /*   background: "linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%)", */
+    background:"linear-gradient(to left, var(--bs-orange) 20%, var(--orange) 0%, var(--orange) 20%) text",
     WebkitBackgroundClip: "text",
     WebkitTextFillColor: "transparent",
     display: "inline-block"

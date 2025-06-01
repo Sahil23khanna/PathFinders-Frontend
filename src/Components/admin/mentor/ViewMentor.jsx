@@ -193,7 +193,6 @@ export default function ViewMentor() {
   );
 }
 
-// ✅ Reusable info display
 const Info = ({ label, value }) => (
   <p className="mb-2">
     <strong className="text-secondary">{label}:</strong>{" "}

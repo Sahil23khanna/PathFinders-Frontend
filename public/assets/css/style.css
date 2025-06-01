@@ -2207,7 +2207,11 @@ ul {
 
 /* line 46, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link:hover {
-  color: #ee390f;
+  color:#ee390f  ;
+}
+
+.main_menu .main-menu-item ul li .nav-link:focus {
+  color: #ee390f   ;                  
 }
 
 /* line 51, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -4423,6 +4427,7 @@ ul {
 /* line 195, E:/172 Etrain Education/172_Etrain_Education_html/sass/_cource_details.scss */
 .right-contents .feedeback textarea:focus {
   box-shadow: none;
+  
 }
 
 /* line 205, E:/172 Etrain Education/172_Etrain_Education_html/sass/_cource_details.scss */
