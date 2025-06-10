@@ -4,6 +4,7 @@ import StarRatings from 'react-star-ratings';
 import ApiServices from "../services/ApiServices";
 import PageTitle from "../layouts/PageTitle";
 import { toast } from "react-toastify";
+import { FadeLoader } from "react-spinners";
 import { FaUserGraduate, FaCalendarAlt, FaClock, FaStar, FaLink } from "react-icons/fa";
 import Pagination, { LIMIT } from "../utilities/Pagination";
 import ResponsivePagination from "react-responsive-pagination";
@@ -80,9 +81,9 @@ export default function MyEnrollment() {
         <>
             <main className="main">
                 <PageTitle>My Enrollments</PageTitle>
-                <section id="contact" className="contact section" style={{ marginTop: "10vh" }}>
+                <section id="contact" className="contact section" style={{ marginTop: "10vh" , marginBottom:"10vh" }}>
                     {load ? (
-                        <p>Loading...</p>
+   <FadeLoader color="#f98603" cssOverride={{ display: "block", margin: "0 auto" }} loading={load} />
                     ) : (
                         <div className="container my-3">
                            

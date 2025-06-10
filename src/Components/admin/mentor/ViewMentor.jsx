@@ -136,6 +136,7 @@ export default function ViewMentor() {
   return (
     <>
       <PageTitle>View Mentor</PageTitle>
+      <section style={{marginTop:"8vh" , marginBottom:"8vh"}}>
       {load && (
         <FadeLoader
           loading={load}
@@ -189,6 +190,7 @@ export default function ViewMentor() {
           </div>
         </div>
       )}
+      </section>
     </>
   );
 }

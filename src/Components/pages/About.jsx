@@ -7,7 +7,7 @@ export default function About(){
  
   {/* feature_part start*/}
 
-  <section className="feature_part single_feature_padding" style={{marginBottom:"10vh"}}>
+  <section className="feature_part single_feature_padding" style={{marginBottom:"15vh"}}>
     <div className="container">
       <div className="row">
         <div className="col-sm-6 col-xl-3 align-self-center">

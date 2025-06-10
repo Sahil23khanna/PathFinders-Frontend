@@ -33,6 +33,7 @@ export default function Dashboard() {
   return (
     <>
       <PageTitle>Admin Dashboard</PageTitle>
+      <section style={{marginTop:"8vh", marginBottom:"8vh"}}>
       {load ? (
         <FadeLoader color="#f98603" cssOverride={{ display: "block", margin: "0 auto" }} />
       ) : (
@@ -49,6 +50,7 @@ export default function Dashboard() {
           </div>
         </div>
       )}
+         </section>
     </>
   );
 }

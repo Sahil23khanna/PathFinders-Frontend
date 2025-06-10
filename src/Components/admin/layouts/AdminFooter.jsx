@@ -4,7 +4,7 @@ export default function AdminFooter(){
         {/* footer part start*/}
 
 
-   <footer className="footer-area" style={{marginTop:"10vh"}}>
+   <footer className="footer-area">
         <div className="container">
           <div className="row justify-content-between">
             {/* Logo and Description */}

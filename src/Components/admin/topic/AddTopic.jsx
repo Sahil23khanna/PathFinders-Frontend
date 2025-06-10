@@ -55,7 +55,7 @@ export default function AddTopic() {
         <section
           id="contact"
           className="section d-flex justify-content-center align-items-center"
-          style={{ marginTop: "9vh", minHeight: "70vh" }}
+          style={{ minHeight: "60vh", marginTop:"6vh", marginBottom:"6vh" }}
         >
           <FadeLoader
             color="#f98603"

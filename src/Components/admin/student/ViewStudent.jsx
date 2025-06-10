@@ -37,6 +37,7 @@ export default function ViewStudent() {
   return (
     <>
       <PageTitle>View Student</PageTitle>
+      <section style={{marginTop:"8vh", marginBottom:"8vh"}}>
       {load && (
         <FadeLoader
           loading={load}
@@ -46,7 +47,7 @@ export default function ViewStudent() {
       )}
 
       {!load && (
-        <div className="container d-flex justify-content-center align-items-center" style={{ marginTop: "10vh" }}>
+        <div className="container d-flex justify-content-center align-items-center">
           <div
             className="card shadow-sm border-0"
             style={{
@@ -70,6 +71,7 @@ export default function ViewStudent() {
           </div>
         </div>
       )}
+      </section>
     </>
   );
 }

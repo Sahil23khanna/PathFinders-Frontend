@@ -105,7 +105,7 @@ export default function ManageStudent() {
         <>
             <main className="main">
                 <PageTitle>Manage Students</PageTitle>
-                <section id="contact" className="contact section " style={{ marginTop: "10vh" }}>
+                <section id="contact" className="contact section " style={{ marginTop: "8vh" , marginBottom:"8vh" }}>
 
                     {load ?
                         <FadeLoader color="#f98603" cssOverride={{ display: "block", margin: "0 auto" }} loading={load} />

@@ -107,14 +107,14 @@ export default function ManageTopic() {
         <>
             <main className="main">
               <PageTitle>Manage Topics</PageTitle>
-                <section id="contact" className="contact section " style={{ marginTop: "10vh" }}>
+                <section id="contact" className="contact section " style={{ marginTop: "8vh", marginBottom:"8vh" }}>
 
                     {load ?
                         <FadeLoader color="#f98603" cssOverride={{ display: "block", margin: "0 auto" }} loading={load} />
                         :
                         <div className="container my-3" >
-                            <div className="row d-flex justify-content-between my-2">
-                                <div className="col-md-2">
+                            <div className="row d-flex justify-content-between align-items-center my-2" style={{paddingTop:"1vh", paddingBottom:"1vh"}}>
+                                <div className="col-md-2" style={{paddingLeft:"4vw"}}>
 
                                     <select className="form-control" onChange={(e) => { setFilter(e.target.value) }} value={filter}>
                                         <option value={""}>All</option>
@@ -123,8 +123,8 @@ export default function ManageTopic() {
                                     </select>
                                 </div>
 
-                                <div className="col-md-2" style={{marginLeft:"75vw"}}>
-                                    <Link to={"/admin/topic/add"} className="btn btn-outline-primary">Add New Topic +</Link>
+                                <div className="col-md-2" style={{paddingLeft:"3vw"}}>
+                                    <Link to={"/admin/topic/add"} className="btn btn-outline-primary">Add New +</Link>
                                 </div>
                             </div>
                             <div className="row justify-content-center gy-4">

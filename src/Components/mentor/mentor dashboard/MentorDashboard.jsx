@@ -33,6 +33,7 @@ export default function MentorDashboard() {
   return (
     <>
       <PageTitle>Mentor Dashboard</PageTitle>
+      <section style={{marginTop:"7vh", marginBottom:"7vh"}}>
       {load ? (
         <FadeLoader color="#f98603" cssOverride={{ display: "block", margin: "0 auto" }} />
       ) : (
@@ -44,6 +45,7 @@ export default function MentorDashboard() {
           </div>
         </div>
       )}
+      </section>
     </>
   );
 }

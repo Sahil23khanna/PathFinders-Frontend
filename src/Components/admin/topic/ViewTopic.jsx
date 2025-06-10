@@ -41,6 +41,7 @@ export default function ViewTopic(){
     return(
         <>
         <PageTitle>View Topic</PageTitle>
+        <section style={{marginTop:"8vh", marginBottom:"8vh"}}>
         <FadeLoader loading={load} color="#f98603" cssOverride={{display:"block", margin:"0 auto"}}/>
 
         <div className={load ? "d-none":"container"}>
@@ -56,7 +57,7 @@ export default function ViewTopic(){
                 </div>
             </div>
         </div>
-
+        </section>
         </>
     )
 }

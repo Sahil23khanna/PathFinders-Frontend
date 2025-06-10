@@ -97,7 +97,7 @@ export default function AddMentorshipProgram() {
             <main className="main">
                 <PageTitle>Add Mentorship Program</PageTitle>
 
-                <section id="contact" className="section" style={{ marginTop: "9vh" }}>
+                <section id="contact" className="section" style={{ marginTop: "7vh", marginBottom:"7vh" }}>
                     <FadeLoader color="#f98603" cssOverride={{ display: "block", margin: "0 auto" }} loading={load} />
 
                     <div className={load ? "d-none" : "container"}>

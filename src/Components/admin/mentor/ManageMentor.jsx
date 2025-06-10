@@ -127,7 +127,7 @@ export default function ManageMentor() {
         <>
             <main className="main">
                 <PageTitle>Manage Mentors</PageTitle>
-                <section id="contact" className="contact section " style={{ marginTop: "10vh" }}>
+                <section id="contact" className="contact section " style={{ marginTop: "8vh", marginBottom:"8vh" }}>
 
                     {load ?
                         <FadeLoader color="#f98603" cssOverride={{ display: "block", margin: "0 auto" }} loading={load} />
@@ -138,7 +138,7 @@ export default function ManageMentor() {
                             <div className="row justify-content-center gy-4">
                                 <div className="col-md-12 table-responsive">
                                     <table className="table border shadow-sm table-striped table-hover">
-                                        <thead /* className="table-primary" */ style={{ backgroundColor: "#121212e3", color: "#fff" }}>
+                                        <thead>
                                             <tr>
                                                 <th>Sno.</th>
                                                 <th>Profile</th>

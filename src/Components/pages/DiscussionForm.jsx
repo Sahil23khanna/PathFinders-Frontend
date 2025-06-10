@@ -72,6 +72,7 @@ export default function DiscussionForm() {
     return (
         <div>
             <PageTitle>Discussions</PageTitle>
+            <section style={{marginTop:"11vh", marginBottom:"11vh"}}>
             {load ? <FadeLoader color="#f98603" cssOverride={{ display: "block", margin: "0 auto" }}/> : (
                 <div className="container my-5">
                     <Accordion activeKey={activeAccordion}>
@@ -117,6 +118,7 @@ export default function DiscussionForm() {
                     </Accordion>
                 </div>
             )}
+            </section>
         </div>
     );
 }

@@ -38,7 +38,7 @@ export default function ViewMentorshipProgram() {
   return (
     <>
       <PageTitle>View Mentorship Program</PageTitle>
-
+     <section style={{marginTop:"8vh", marginBottom:"8vh"}}>
       {load ? (
         <FadeLoader
           loading={load}
@@ -78,6 +78,7 @@ export default function ViewMentorshipProgram() {
           <Enrollment />
         </div>
       )}
+</section>
     </>
   );
 }
